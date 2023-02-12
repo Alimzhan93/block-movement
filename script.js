@@ -1,8 +1,22 @@
 let elem = document.querySelector('#elem');
 let parent = document.querySelector('#parent')
+let canvas = document.querySelector('.canvas')
+
+let plus = document.querySelector('#plus')
+let minus = document.querySelector('#minus')
 
 let offsetX;
 let offsetY;
+
+plus.addEventListener('click', () =>{
+    canvas.width += 100;
+    canvas.heigth += 100;
+})
+
+minus.addEventListener('click', () =>{
+    canvas.width -= 100;
+    canvas.heigth -= 100;
+})
 
 elem.addEventListener('dragstart', function(event) {
     offsetX = event.offsetX;

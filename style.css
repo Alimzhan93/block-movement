@@ -5,10 +5,14 @@
 .canvas{
     position: absolute;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
     top: 20px;
     left: 30px;
-    background-color: aliceblue;
+    border: solid black;
+    background-size: cover;
+    background-position: bottom center;
+    background-image: url(../img/picture.jpeg);
+    
 }
 
 #elem{
@@ -29,3 +33,21 @@
     left:  10px;
     background-color: greenyellow;
 }
+#plus{
+    width: 25px;
+    height: 25px;
+    margin-top: 100px;
+}
+#minus{
+    width: 25px;
+    height: 25px;
+    margin-top: 100px;
+}
+.zum{
+    width: 100px;
+    margin-top: 110px;
+}
+.zoom {
+    transform: scale(2);
+    transition: transform 0.5s ease-in-out;
+  }
