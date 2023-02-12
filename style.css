@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.canvas{
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    top: 20px;
+    left: 30px;
+    background-color: aliceblue;
+}
+
+#elem{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    top: 10px;
+    left:  10px;
+    background-color: aqua;
+}
+#parent{ 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    top: 10px;
+    left:  10px;
+    background-color: greenyellow;
+}
